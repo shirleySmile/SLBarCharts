@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4F03ED491E77812900C21C52 /* SLBarChartsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F03ED441E77812900C21C52 /* SLBarChartsView.m */; };
-		4F03ED4A1E77812900C21C52 /* SLShowStepDataView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F03ED461E77812900C21C52 /* SLShowStepDataView.m */; };
-		4F03ED4B1E77812900C21C52 /* SLShowStepView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F03ED481E77812900C21C52 /* SLShowStepView.m */; };
+		4F03ED531E77A33D00C21C52 /* SLBarChartsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F03ED4E1E77A33D00C21C52 /* SLBarChartsView.m */; };
+		4F03ED541E77A33D00C21C52 /* SLShowStepDataView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F03ED501E77A33D00C21C52 /* SLShowStepDataView.m */; };
+		4F03ED551E77A33D00C21C52 /* SLShowStepView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F03ED521E77A33D00C21C52 /* SLShowStepView.m */; };
 		4F77AB001E73A2AF008DBF4E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F77AAFF1E73A2AF008DBF4E /* main.m */; };
 		4F77AB031E73A2AF008DBF4E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F77AB021E73A2AF008DBF4E /* AppDelegate.m */; };
 		4F77AB061E73A2AF008DBF4E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F77AB051E73A2AF008DBF4E /* ViewController.m */; };
@@ -19,12 +19,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4F03ED431E77812900C21C52 /* SLBarChartsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLBarChartsView.h; sourceTree = "<group>"; };
-		4F03ED441E77812900C21C52 /* SLBarChartsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLBarChartsView.m; sourceTree = "<group>"; };
-		4F03ED451E77812900C21C52 /* SLShowStepDataView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLShowStepDataView.h; sourceTree = "<group>"; };
-		4F03ED461E77812900C21C52 /* SLShowStepDataView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLShowStepDataView.m; sourceTree = "<group>"; };
-		4F03ED471E77812900C21C52 /* SLShowStepView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLShowStepView.h; sourceTree = "<group>"; };
-		4F03ED481E77812900C21C52 /* SLShowStepView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLShowStepView.m; sourceTree = "<group>"; };
+		4F03ED4D1E77A33D00C21C52 /* SLBarChartsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLBarChartsView.h; sourceTree = "<group>"; };
+		4F03ED4E1E77A33D00C21C52 /* SLBarChartsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLBarChartsView.m; sourceTree = "<group>"; };
+		4F03ED4F1E77A33D00C21C52 /* SLShowStepDataView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLShowStepDataView.h; sourceTree = "<group>"; };
+		4F03ED501E77A33D00C21C52 /* SLShowStepDataView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLShowStepDataView.m; sourceTree = "<group>"; };
+		4F03ED511E77A33D00C21C52 /* SLShowStepView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLShowStepView.h; sourceTree = "<group>"; };
+		4F03ED521E77A33D00C21C52 /* SLShowStepView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLShowStepView.m; sourceTree = "<group>"; };
 		4F77AAFB1E73A2AF008DBF4E /* SLBarCharts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SLBarCharts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F77AAFF1E73A2AF008DBF4E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4F77AB011E73A2AF008DBF4E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -48,23 +48,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4F03ED421E77812900C21C52 /* slBarChart */ = {
+		4F03ED4C1E77A33D00C21C52 /* slBarChart */ = {
 			isa = PBXGroup;
 			children = (
-				4F03ED431E77812900C21C52 /* SLBarChartsView.h */,
-				4F03ED441E77812900C21C52 /* SLBarChartsView.m */,
-				4F03ED451E77812900C21C52 /* SLShowStepDataView.h */,
-				4F03ED461E77812900C21C52 /* SLShowStepDataView.m */,
-				4F03ED471E77812900C21C52 /* SLShowStepView.h */,
-				4F03ED481E77812900C21C52 /* SLShowStepView.m */,
+				4F03ED4D1E77A33D00C21C52 /* SLBarChartsView.h */,
+				4F03ED4E1E77A33D00C21C52 /* SLBarChartsView.m */,
+				4F03ED4F1E77A33D00C21C52 /* SLShowStepDataView.h */,
+				4F03ED501E77A33D00C21C52 /* SLShowStepDataView.m */,
+				4F03ED511E77A33D00C21C52 /* SLShowStepView.h */,
+				4F03ED521E77A33D00C21C52 /* SLShowStepView.m */,
 			);
-			path = slBarChart;
+			name = slBarChart;
+			path = SLBarCharts/slBarChart;
 			sourceTree = "<group>";
 		};
 		4F77AAF21E73A2AF008DBF4E = {
 			isa = PBXGroup;
 			children = (
-				4F03ED421E77812900C21C52 /* slBarChart */,
+				4F03ED4C1E77A33D00C21C52 /* slBarChart */,
 				4F77AAFD1E73A2AF008DBF4E /* SLBarCharts */,
 				4F77AAFC1E73A2AF008DBF4E /* Products */,
 			);
@@ -173,9 +174,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F03ED491E77812900C21C52 /* SLBarChartsView.m in Sources */,
-				4F03ED4A1E77812900C21C52 /* SLShowStepDataView.m in Sources */,
-				4F03ED4B1E77812900C21C52 /* SLShowStepView.m in Sources */,
+				4F03ED531E77A33D00C21C52 /* SLBarChartsView.m in Sources */,
+				4F03ED541E77A33D00C21C52 /* SLShowStepDataView.m in Sources */,
+				4F03ED551E77A33D00C21C52 /* SLShowStepView.m in Sources */,
 				4F77AB061E73A2AF008DBF4E /* ViewController.m in Sources */,
 				4F77AB031E73A2AF008DBF4E /* AppDelegate.m in Sources */,
 				4F77AB001E73A2AF008DBF4E /* main.m in Sources */,
