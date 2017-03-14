@@ -40,7 +40,7 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/slCreation/SLBarCharts.git", :tag => "#{s.version}" }
 
-  s.source_files  = "SLBarCharts/*.{h,m}"
+  s.source_files  = "slBarChart/*.{h,m}"
 
   # s.public_header_files = "Classes/**/*.h"
 
