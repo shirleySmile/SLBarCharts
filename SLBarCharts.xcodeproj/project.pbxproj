@@ -13,7 +13,7 @@
 		4F77AB091E73A2AF008DBF4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F77AB071E73A2AF008DBF4E /* Main.storyboard */; };
 		4F77AB0B1E73A2AF008DBF4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F77AB0A1E73A2AF008DBF4E /* Assets.xcassets */; };
 		4F77AB0E1E73A2AF008DBF4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F77AB0C1E73A2AF008DBF4E /* LaunchScreen.storyboard */; };
-		4F77AB1B1E73A31B008DBF4E /* SLHistogramView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F77AB161E73A31B008DBF4E /* SLHistogramView.m */; };
+		4F77AB1B1E73A31B008DBF4E /* SLBarChartsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F77AB161E73A31B008DBF4E /* SLBarChartsView.m */; };
 		4F77AB1C1E73A31B008DBF4E /* SLShowStepDataView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F77AB181E73A31B008DBF4E /* SLShowStepDataView.m */; };
 		4F77AB1D1E73A31B008DBF4E /* SLShowStepView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F77AB1A1E73A31B008DBF4E /* SLShowStepView.m */; };
 /* End PBXBuildFile section */
@@ -29,8 +29,8 @@
 		4F77AB0A1E73A2AF008DBF4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4F77AB0D1E73A2AF008DBF4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4F77AB0F1E73A2AF008DBF4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4F77AB151E73A31B008DBF4E /* SLHistogramView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLHistogramView.h; sourceTree = "<group>"; };
-		4F77AB161E73A31B008DBF4E /* SLHistogramView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLHistogramView.m; sourceTree = "<group>"; };
+		4F77AB151E73A31B008DBF4E /* SLBarChartsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLBarChartsView.h; sourceTree = "<group>"; };
+		4F77AB161E73A31B008DBF4E /* SLBarChartsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLBarChartsView.m; sourceTree = "<group>"; };
 		4F77AB171E73A31B008DBF4E /* SLShowStepDataView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLShowStepDataView.h; sourceTree = "<group>"; };
 		4F77AB181E73A31B008DBF4E /* SLShowStepDataView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLShowStepDataView.m; sourceTree = "<group>"; };
 		4F77AB191E73A31B008DBF4E /* SLShowStepView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLShowStepView.h; sourceTree = "<group>"; };
@@ -67,8 +67,8 @@
 		4F77AAFD1E73A2AF008DBF4E /* SLBarCharts */ = {
 			isa = PBXGroup;
 			children = (
-				4F77AB151E73A31B008DBF4E /* SLHistogramView.h */,
-				4F77AB161E73A31B008DBF4E /* SLHistogramView.m */,
+				4F77AB151E73A31B008DBF4E /* SLBarChartsView.h */,
+				4F77AB161E73A31B008DBF4E /* SLBarChartsView.m */,
 				4F77AB171E73A31B008DBF4E /* SLShowStepDataView.h */,
 				4F77AB181E73A31B008DBF4E /* SLShowStepDataView.m */,
 				4F77AB191E73A31B008DBF4E /* SLShowStepView.h */,
@@ -165,7 +165,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F77AB1B1E73A31B008DBF4E /* SLHistogramView.m in Sources */,
+				4F77AB1B1E73A31B008DBF4E /* SLBarChartsView.m in Sources */,
 				4F77AB1C1E73A31B008DBF4E /* SLShowStepDataView.m in Sources */,
 				4F77AB1D1E73A31B008DBF4E /* SLShowStepView.m in Sources */,
 				4F77AB061E73A2AF008DBF4E /* ViewController.m in Sources */,
@@ -325,6 +325,7 @@
 				4F77AB141E73A2AF008DBF4E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

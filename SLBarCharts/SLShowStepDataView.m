@@ -8,7 +8,7 @@
 
 #import "SLShowStepDataView.h"
 #import "SLShowStepView.h"
-#import "SLHistogramView.h"
+#import "SLBarChartsView.h"
 
 @interface SLShowStepDataView ()
 
@@ -44,7 +44,7 @@
             stepView.averageStepNum = 755+i;
             [_bgSView addSubview:stepView];
             
-            SLHistogramView *show = [[SLHistogramView alloc] initWithFrame:CGRectMake(_bgSView.frame.size.width*i, 60, _bgSView.frame.size.width, _bgSView.frame.size.height-60) dateArray:showArr[i] Xtype:2-i leftX:20];
+            SLBarChartsView *show = [[SLBarChartsView alloc] initWithFrame:CGRectMake(_bgSView.frame.size.width*i, 60, _bgSView.frame.size.width, _bgSView.frame.size.height-60) dateArray:showArr[i] Xtype:2-i leftX:20];
             [_bgSView addSubview:show];
         }
         showArr = nil;

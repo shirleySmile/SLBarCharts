@@ -1,0 +1,37 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "E926A88D062AB7CF2E9C7233919D697AB74F5C0A+++7AC4754",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "E926A88D062AB7CF2E9C7233919D697AB74F5C0A+++309FA30" : 9223372036854775807,
+    "E926A88D062AB7CF2E9C7233919D697AB74F5C0A+++41090A6" : 9223372036854775807,
+    "E926A88D062AB7CF2E9C7233919D697AB74F5C0A+++7AC4754" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "CBAB8070-56A8-4DA1-B4A3-6A68D37DF3DE",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "E926A88D062AB7CF2E9C7233919D697AB74F5C0A+++309FA30" : "",
+    "E926A88D062AB7CF2E9C7233919D697AB74F5C0A+++41090A6" : "",
+    "E926A88D062AB7CF2E9C7233919D697AB74F5C0A+++7AC4754" : "SLBarCharts\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "SLBarCharts",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "SLBarCharts.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/slCreation\/SLBarCharts.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E926A88D062AB7CF2E9C7233919D697AB74F5C0A+++309FA30"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/slCreation\/SLBarCharts.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E926A88D062AB7CF2E9C7233919D697AB74F5C0A+++41090A6"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/slCreation\/SLBarCharts.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E926A88D062AB7CF2E9C7233919D697AB74F5C0A+++7AC4754"
+    }
+  ]
+}

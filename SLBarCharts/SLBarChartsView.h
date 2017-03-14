@@ -1,5 +1,5 @@
 //
-//  JZShowView.h
+//  SLBarChartsView.h
 //  downBigImage
 //
 //  Created by shaolei on 17/2/17.
@@ -15,7 +15,7 @@ typedef NS_ENUM(NSInteger,ShowType)
     ShowWeek
 };
 
-@interface SLHistogramView : UIView
+@interface SLBarChartsView : UIView
 
 - (instancetype)initWithFrame:(CGRect)frame dateArray:(NSArray *)dataArray Xtype:(ShowType)type leftX:(float)x;
 

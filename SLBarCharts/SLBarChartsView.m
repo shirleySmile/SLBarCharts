@@ -1,12 +1,12 @@
 //
-//  JZShowView.m
+//  SLBarChartsView.m
 //  downBigImage
 //
 //  Created by shaolei on 17/2/17.
 //  Copyright © 2017年 sl. All rights reserved.
 //
 
-#import "SLHistogramView.h"
+#import "SLBarChartsView.h"
 #define PI 3.14159265358979323846 
 
 #define zeroY (self.frame.size.height-35)
@@ -21,7 +21,7 @@
 
 #define xyFont   10
 
-@interface SLHistogramView ()
+@interface SLBarChartsView ()
 {
     CGFloat maxYScale;
     NSInteger maxY;
@@ -31,7 +31,7 @@
 @property(nonatomic,copy)NSArray *dateArray;
 @end
 
-@implementation SLHistogramView
+@implementation SLBarChartsView
 
 - (instancetype)initWithFrame:(CGRect)frame dateArray:(NSArray *)dataArray Xtype:(ShowType)type leftX:(float)x{
     self = [super initWithFrame:frame];
