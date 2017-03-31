@@ -1,8 +1,7 @@
-platform : 'ios', 8.0
-use_frameworks
+use_frameworks!
 
 target "SLBarCharts" do 
 
-  pod ' AFNetWorking' 
+  pod 'SLBarCharts', :path=>'../' 
 
 end 
