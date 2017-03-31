@@ -7,9 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4F03ED531E77A33D00C21C52 /* SLBarChartsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F03ED4E1E77A33D00C21C52 /* SLBarChartsView.m */; };
-		4F03ED541E77A33D00C21C52 /* SLShowStepDataView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F03ED501E77A33D00C21C52 /* SLShowStepDataView.m */; };
-		4F03ED551E77A33D00C21C52 /* SLShowStepView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F03ED521E77A33D00C21C52 /* SLShowStepView.m */; };
+		00826A4BB009CF527F844401 /* Pods_SLBarCharts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 850E42E2B6201F7631490E81 /* Pods_SLBarCharts.framework */; };
 		4F77AB001E73A2AF008DBF4E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F77AAFF1E73A2AF008DBF4E /* main.m */; };
 		4F77AB031E73A2AF008DBF4E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F77AB021E73A2AF008DBF4E /* AppDelegate.m */; };
 		4F77AB061E73A2AF008DBF4E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F77AB051E73A2AF008DBF4E /* ViewController.m */; };
@@ -19,12 +17,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4F03ED4D1E77A33D00C21C52 /* SLBarChartsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLBarChartsView.h; sourceTree = "<group>"; };
-		4F03ED4E1E77A33D00C21C52 /* SLBarChartsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLBarChartsView.m; sourceTree = "<group>"; };
-		4F03ED4F1E77A33D00C21C52 /* SLShowStepDataView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLShowStepDataView.h; sourceTree = "<group>"; };
-		4F03ED501E77A33D00C21C52 /* SLShowStepDataView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLShowStepDataView.m; sourceTree = "<group>"; };
-		4F03ED511E77A33D00C21C52 /* SLShowStepView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLShowStepView.h; sourceTree = "<group>"; };
-		4F03ED521E77A33D00C21C52 /* SLShowStepView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLShowStepView.m; sourceTree = "<group>"; };
 		4F77AAFB1E73A2AF008DBF4E /* SLBarCharts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SLBarCharts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F77AAFF1E73A2AF008DBF4E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4F77AB011E73A2AF008DBF4E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -35,6 +27,9 @@
 		4F77AB0A1E73A2AF008DBF4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4F77AB0D1E73A2AF008DBF4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4F77AB0F1E73A2AF008DBF4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7618F65560A45C090EE60A15 /* Pods-SLBarCharts.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SLBarCharts.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SLBarCharts/Pods-SLBarCharts.debug.xcconfig"; sourceTree = "<group>"; };
+		850E42E2B6201F7631490E81 /* Pods_SLBarCharts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SLBarCharts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E00769DD03F6247D065760EE /* Pods-SLBarCharts.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SLBarCharts.release.xcconfig"; path = "Pods/Target Support Files/Pods-SLBarCharts/Pods-SLBarCharts.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,32 +37,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00826A4BB009CF527F844401 /* Pods_SLBarCharts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4F03ED4C1E77A33D00C21C52 /* slBarChart */ = {
+		4F764F3D358C296869E8C794 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				4F03ED4D1E77A33D00C21C52 /* SLBarChartsView.h */,
-				4F03ED4E1E77A33D00C21C52 /* SLBarChartsView.m */,
-				4F03ED4F1E77A33D00C21C52 /* SLShowStepDataView.h */,
-				4F03ED501E77A33D00C21C52 /* SLShowStepDataView.m */,
-				4F03ED511E77A33D00C21C52 /* SLShowStepView.h */,
-				4F03ED521E77A33D00C21C52 /* SLShowStepView.m */,
+				850E42E2B6201F7631490E81 /* Pods_SLBarCharts.framework */,
 			);
-			name = slBarChart;
-			path = SLBarCharts/slBarChart;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		4F77AAF21E73A2AF008DBF4E = {
 			isa = PBXGroup;
 			children = (
-				4F03ED4C1E77A33D00C21C52 /* slBarChart */,
 				4F77AAFD1E73A2AF008DBF4E /* SLBarCharts */,
 				4F77AAFC1E73A2AF008DBF4E /* Products */,
+				A5C17567B9D1A42D4A47718F /* Pods */,
+				4F764F3D358C296869E8C794 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +94,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		A5C17567B9D1A42D4A47718F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7618F65560A45C090EE60A15 /* Pods-SLBarCharts.debug.xcconfig */,
+				E00769DD03F6247D065760EE /* Pods-SLBarCharts.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -110,9 +110,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4F77AB121E73A2AF008DBF4E /* Build configuration list for PBXNativeTarget "SLBarCharts" */;
 			buildPhases = (
+				B379B364E37F6BDB6A7B576F /* [CP] Check Pods Manifest.lock */,
 				4F77AAF71E73A2AF008DBF4E /* Sources */,
 				4F77AAF81E73A2AF008DBF4E /* Frameworks */,
 				4F77AAF91E73A2AF008DBF4E /* Resources */,
+				3463BDB26CFCFEBB5BB96144 /* [CP] Embed Pods Frameworks */,
+				F1D086F8B4A355A235EBB895 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -169,14 +172,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3463BDB26CFCFEBB5BB96144 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SLBarCharts/Pods-SLBarCharts-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B379B364E37F6BDB6A7B576F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F1D086F8B4A355A235EBB895 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SLBarCharts/Pods-SLBarCharts-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4F77AAF71E73A2AF008DBF4E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F03ED531E77A33D00C21C52 /* SLBarChartsView.m in Sources */,
-				4F03ED541E77A33D00C21C52 /* SLShowStepDataView.m in Sources */,
-				4F03ED551E77A33D00C21C52 /* SLShowStepView.m in Sources */,
 				4F77AB061E73A2AF008DBF4E /* ViewController.m in Sources */,
 				4F77AB031E73A2AF008DBF4E /* AppDelegate.m in Sources */,
 				4F77AB001E73A2AF008DBF4E /* main.m in Sources */,
@@ -295,6 +343,7 @@
 		};
 		4F77AB131E73A2AF008DBF4E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7618F65560A45C090EE60A15 /* Pods-SLBarCharts.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SLBarCharts/Info.plist;
@@ -306,6 +355,7 @@
 		};
 		4F77AB141E73A2AF008DBF4E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E00769DD03F6247D065760EE /* Pods-SLBarCharts.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SLBarCharts/Info.plist;
