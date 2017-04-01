@@ -14,6 +14,8 @@
 		4F77AB091E73A2AF008DBF4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F77AB071E73A2AF008DBF4E /* Main.storyboard */; };
 		4F77AB0B1E73A2AF008DBF4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F77AB0A1E73A2AF008DBF4E /* Assets.xcassets */; };
 		4F77AB0E1E73A2AF008DBF4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F77AB0C1E73A2AF008DBF4E /* LaunchScreen.storyboard */; };
+		4FACBB061E8F438C006C1842 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 4FACBB041E8F438C006C1842 /* README.md */; };
+		4FACBB071E8F438C006C1842 /* SLBarCharts.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 4FACBB051E8F438C006C1842 /* SLBarCharts.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,8 @@
 		4F77AB0A1E73A2AF008DBF4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4F77AB0D1E73A2AF008DBF4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4F77AB0F1E73A2AF008DBF4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FACBB041E8F438C006C1842 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		4FACBB051E8F438C006C1842 /* SLBarCharts.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = SLBarCharts.podspec; path = ../SLBarCharts.podspec; sourceTree = "<group>"; };
 		7618F65560A45C090EE60A15 /* Pods-SLBarCharts.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SLBarCharts.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SLBarCharts/Pods-SLBarCharts.debug.xcconfig"; sourceTree = "<group>"; };
 		850E42E2B6201F7631490E81 /* Pods_SLBarCharts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SLBarCharts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E00769DD03F6247D065760EE /* Pods-SLBarCharts.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SLBarCharts.release.xcconfig"; path = "Pods/Target Support Files/Pods-SLBarCharts/Pods-SLBarCharts.release.xcconfig"; sourceTree = "<group>"; };
@@ -55,6 +59,7 @@
 		4F77AAF21E73A2AF008DBF4E = {
 			isa = PBXGroup;
 			children = (
+				4FACBAFF1E8F4327006C1842 /* Podspec Metadata */,
 				4F77AAFD1E73A2AF008DBF4E /* SLBarCharts */,
 				4F77AAFC1E73A2AF008DBF4E /* Products */,
 				A5C17567B9D1A42D4A47718F /* Pods */,
@@ -92,6 +97,15 @@
 				4F77AAFF1E73A2AF008DBF4E /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4FACBAFF1E8F4327006C1842 /* Podspec Metadata */ = {
+			isa = PBXGroup;
+			children = (
+				4FACBB041E8F438C006C1842 /* README.md */,
+				4FACBB051E8F438C006C1842 /* SLBarCharts.podspec */,
+			);
+			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
 		A5C17567B9D1A42D4A47718F /* Pods */ = {
@@ -164,6 +178,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FACBB071E8F438C006C1842 /* SLBarCharts.podspec in Resources */,
 				4F77AB0E1E73A2AF008DBF4E /* LaunchScreen.storyboard in Resources */,
 				4F77AB0B1E73A2AF008DBF4E /* Assets.xcassets in Resources */,
 				4F77AB091E73A2AF008DBF4E /* Main.storyboard in Resources */,
@@ -227,6 +242,7 @@
 			files = (
 				4F77AB061E73A2AF008DBF4E /* ViewController.m in Sources */,
 				4F77AB031E73A2AF008DBF4E /* AppDelegate.m in Sources */,
+				4FACBB061E8F438C006C1842 /* README.md in Sources */,
 				4F77AB001E73A2AF008DBF4E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
