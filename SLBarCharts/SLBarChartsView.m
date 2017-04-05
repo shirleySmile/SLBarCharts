@@ -110,7 +110,7 @@
     muDict = nil;
     
     muDict = [[NSMutableDictionary alloc] init];
-    NSString *showNum =[NSString stringWithFormat:@"%ld",pointNum*[self integerLength:maxY]];
+    NSString *showNum =[NSString stringWithFormat:@"%zi",pointNum*[self integerLength:maxY]];
     if ([showNum integerValue]>=10000) {
         showNum = [NSString stringWithFormat:@"%.1f万",([showNum floatValue]/10000)];
     }
